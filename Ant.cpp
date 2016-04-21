@@ -12,7 +12,6 @@ unsigned Ant::count = 0;
 
 Ant::Ant()
 {
-	Organism();
 	timeToBreed = 3;
 	++count;
 }

@@ -12,7 +12,6 @@ unsigned Doodlebug::count = 0;
 
 Doodlebug::Doodlebug()
 {
-	Organism();
 	timeToBreed = 8;
 	timeToStarve = 3;
 	++count;

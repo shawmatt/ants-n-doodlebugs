@@ -17,7 +17,7 @@ public:
 	virtual void move();
 	virtual void resetStarve();
 	virtual void starve();
-	virtual void breed();
+	virtual void breed() = 0; // Organism is an abstract class.
 	virtual bool isStarving() const;
 	void incrementBreed();
 	bool hasAlreadyMoved() const;
